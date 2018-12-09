@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CDN Link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Style for background pattern, etc -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>M. Smiles Bootstrap Contact</title>
+</head>
+
+<body>
+
+    <!-- Navbar (Full width, Icons on Right) -->
+    <div class="navbar  navbar-dark bg-primary sticky-top">
+        <div>
+            <h1>
+                Matt. Smiles
+            </h1>
+        </div>
+
+        <ul class="navbar-nav navbar-expand float-right">
+            <li class="nav-item">
+                <a class="mr-1 nav-link " href="index.html" target="_blank">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="mr-1 nav-link" href="bootstrap_portfolio.html" target="_blank">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#" >Contact</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+
+        <div>
+            <form class="form-group">
+                Name: <br>
+                <input class="form-group" type="text" name="name">
+                <br>
+                Email: <br>
+                <input class="form-group" type="email" name="email">
+                <br>
+                Message: <br>
+                <textarea class="form-group" name="Message" form="contactme" rows="10" cols="60">
+                            </textarea>
+
+                <br>
+
+                <!-- Actual submit button here: 
+                    <input type="submit" value="Submit">
+                            -->
+                <button type="button" class="btn-primary" onclick="alert('One day this will do something useful!')">
+                    Submit
+                </button>
+
+                <button type="button" class="btn-light" >
+                        <input type="reset">
+                    </button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+    <footer class="navbar-dark bg-primary">
+        <div class="justify-content-center">
+
+            <h6 class="text-center">M.Smiles</h6>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
